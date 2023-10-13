@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import NextAppDirEmotionCacheProvider from '../EmotionCache';
+import { NextAppDirEmotionCacheProvider } from '..';
 import { UiProvider } from '@/contexts';
 
 export default function ThemeRegistry({ children }: { children: React.ReactNode }) {
